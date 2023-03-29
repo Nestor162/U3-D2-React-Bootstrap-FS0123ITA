@@ -3,8 +3,8 @@ const Welcome = () => (
   <Container className="mt-4">
     <h1>Benvenuti a EpiBooks</h1>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eaque, fugit in nisi dolorem perspiciatis
-      architecto soluta a magni eius quis adipisci nulla, ipsam dignissimos? Accusamus error delectus provident autem!
+      Benvenuti nella nostra libreria online! Offriamo una vasta gamma di libri di alta qualità e siamo sempre pronti ad
+      aiutarti a trovare il libro giusto per te.
     </p>
     <hr />
   </Container>
