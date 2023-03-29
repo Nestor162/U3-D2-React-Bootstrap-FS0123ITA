@@ -6,16 +6,28 @@ import Image from "react-bootstrap/Image";
 
 function BasicExample(props) {
   return (
-    <Col xs="3">
-      <Card>
+    <Col xs="3" className="mb-5">
+      <Card className="h-100">
         <Image fluid variant="top" src={props.src} />
-        <Card.Body>
+        <Card.Body className="d-flex flex-column justify-content-around">
           <Card.Title>{props.title}</Card.Title>
-          <Card.Text>{props.price}</Card.Text>
+
           <h5>
-            <Badge bg="secondary">{props.category}</Badge>
+            Prezzo:
+            <Badge bg="success" className="ms-2">
+              {props.price}€
+            </Badge>
           </h5>
-          <Button variant="primary">Scopri di più...</Button>
+          <h5>
+            Categoria:
+            <Badge bg="secondary" className="ms-2">
+              {props.category}
+            </Badge>
+          </h5>
+
+          <Button variant="primary" className="w-100">
+            Scopri di più...
+          </Button>
         </Card.Body>
       </Card>
     </Col>

@@ -31,28 +31,52 @@ class AllTheBooks extends Component {
           <Row>
             <h2 id="Sci-Fi">Sci-Fi</h2>
             {scifi.map((book, index) => (
-              <MyCards key={`book-${index}`} title={book.title} src={book.img} price={book.price} />
+              <MyCards
+                key={`book-${index}`}
+                title={book.title}
+                src={book.img}
+                price={book.price}
+                category={book.category}
+              />
             ))}
           </Row>
 
           <Row>
             <h2 id="History">History</h2>
             {history.map((book, index) => (
-              <MyCards key={`book-${index}`} title={book.title} src={book.img} price={book.price} />
+              <MyCards
+                key={`book-${index}`}
+                title={book.title}
+                src={book.img}
+                price={book.price}
+                category={book.category}
+              />
             ))}
           </Row>
 
           <Row>
             <h2 id="Horror">Horror</h2>
             {horror.map((book, index) => (
-              <MyCards key={`book-${index}`} title={book.title} src={book.img} price={book.price} />
+              <MyCards
+                key={`book-${index}`}
+                title={book.title}
+                src={book.img}
+                price={book.price}
+                category={book.category}
+              />
             ))}
           </Row>
 
           <Row>
             <h2 id="Romance">Romance</h2>
             {romance.map((book, index) => (
-              <MyCards key={`book-${index}`} title={book.title} src={book.img} price={book.price} />
+              <MyCards
+                key={`book-${index}`}
+                title={book.title}
+                src={book.img}
+                price={book.price}
+                category={book.category}
+              />
             ))}
           </Row>
         </Container>
