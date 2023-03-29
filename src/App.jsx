@@ -1,14 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import MyFooter from "./components/MyFooter";
-import MyJumbotron from "./components/MyJumbotron";
+import Welcome from "./components/Welcome";
 import MyNav from "./components/MyNav";
 
 function App() {
   return (
     <div className="App">
       <MyNav />
-      <MyJumbotron />
+      <Welcome />
       <MyFooter />
     </div>
   );

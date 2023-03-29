@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-const MyJumbotron = () => (
+const Welcome = () => (
   <Container className="mt-4">
     <h1>Benvenuti a EpiBooks</h1>
     <p>
@@ -9,4 +9,4 @@ const MyJumbotron = () => (
     <hr />
   </Container>
 );
-export default MyJumbotron;
+export default Welcome;
