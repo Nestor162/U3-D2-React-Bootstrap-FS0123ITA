@@ -7,7 +7,7 @@ import AllTheBooks from "./components/AllTheBooks";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App position-relative bg-light">
       <MyNav />
       <Welcome />
       <AllTheBooks />
