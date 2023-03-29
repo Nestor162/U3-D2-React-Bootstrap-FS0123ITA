@@ -18,7 +18,13 @@ class AllTheBooks extends Component {
           <Row>
             <h2 id="Fantasy">Fantasy</h2>
             {fantasy.map((book, index) => (
-              <MyCards key={`book-${index}`} title={book.title} src={book.img} price={book.price} />
+              <MyCards
+                key={`book-${index}`}
+                title={book.title}
+                src={book.img}
+                price={book.price}
+                category={book.category}
+              />
             ))}
           </Row>
 

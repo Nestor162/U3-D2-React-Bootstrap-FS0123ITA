@@ -12,9 +12,9 @@ function BasicExample(props) {
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.price}</Card.Text>
-          <h4>
+          <h5>
             <Badge bg="secondary">{props.category}</Badge>
-          </h4>
+          </h5>
           <Button variant="primary">Scopri di più...</Button>
         </Card.Body>
       </Card>
