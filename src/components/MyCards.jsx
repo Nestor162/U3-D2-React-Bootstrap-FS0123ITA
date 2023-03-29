@@ -9,8 +9,9 @@ function BasicExample(props) {
     <Col xs="3" className="mb-5">
       <Card className="h-100">
         <Image fluid variant="top" src={props.src} />
+
         <Card.Body className="d-flex flex-column justify-content-around">
-          <Card.Title>{props.title}</Card.Title>
+          <Card.Title className="text-truncate">{props.title}</Card.Title>
 
           <h5>
             Prezzo:
